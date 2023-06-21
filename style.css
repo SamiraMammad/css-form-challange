@@ -1,0 +1,68 @@
+body{
+    background-color:  hsl(0, 100%, 74%) ;
+    background-image: url(/images/bg-intro-desktop.png);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: ;
+}
+.form input{
+    display: block;
+}
+.conteiner{
+    width: 70%;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info{
+    color: white;
+    font-size: large;
+}
+.form{
+    padding: 30px;
+    background-color: white;
+    width: 100%;
+}
+.form input[type="button"] {
+    background-color: rgba(41, 41, 180, 0.614);
+    color: white;
+    width: 100%;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+}
+form p {
+    color: hsl(246, 25%, 77%);
+}
+
+form p a{ 
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
+.registration-form button{
+margin-bottom: 15px;
+width: 100%;
+padding: 10px;
+background-color: #0c3e87;;
+border: 0;
+box-shadow: 0px 4px hsl(0, 68%, 63%);
+color: white;
+cursor: pointer;
+}
+.paymaent:hover {
+    background-color: rgb(79, 192, 115);
+}
+.registration{
+    background-color: aquamarine;
+    display: inline-block;
+     width: 100%;
+     margin: 0;
+}
+
+.input-info{
+    padding: 20px;
+}
