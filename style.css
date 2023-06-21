@@ -1,17 +1,23 @@
-body{
-    background-color:  hsl(0, 100%, 74%) ;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+ body{
     background-image: url(/images/bg-intro-desktop.png);
-    width: 100vw;
+    background-color:  hsl(0, 100%, 74%) ;
+       width: 100vw;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    box-sizing: ;
+    
 }
 .form input{
+    margin-top: 20PX;
     display: block;
 }
 .conteiner{
     width: 70%;
-    margin:20px auto;
+    margin: 100px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -19,24 +25,31 @@ body{
 .info{
     color: white;
     font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .form{
+    border-radius: 13px;
     padding: 30px;
     background-color: white;
     width: 100%;
 }
 .form input[type="button"] {
-    background-color: rgba(41, 41, 180, 0.614);
+    background-color: hsl(249, 10%, 26%) ;
     color: white;
     width: 100%;
 }
 
-.form input {
+.input-info  {
+    margin-top: ;
     width: 100%;
     padding: 10px;
 }
 form p {
     color: hsl(246, 25%, 77%);
+    font-size: 10px;
+    margin-left: 50px;
 }
 
 form p a{ 
@@ -46,15 +59,16 @@ form p a{
 .registration-form button{
 margin-bottom: 15px;
 width: 100%;
-padding: 10px;
+padding: 15px;
 background-color: #0c3e87;;
 border: 0;
-box-shadow: 0px 4px hsl(0, 68%, 63%);
+box-shadow: 0px 6px hsl(0, 67%, 64%);
 color: white;
 cursor: pointer;
+border-radius: 5px;
 }
 .paymaent:hover {
-    background-color: rgb(79, 192, 115);
+    background-color: rgb(149, 25, 130);
 }
 .registration{
     background-color: aquamarine;
@@ -64,5 +78,21 @@ cursor: pointer;
 }
 
 .input-info{
-    padding: 20px;
+padding: 15px;
+border-radius: 5px;
 }
+.registration-form{
+    margin-left: 50px;
+}
+.claim input{
+    background-color: hsl(154, 59%, 51%);
+    border: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+  box-shadow: 0px 4px hsl(154, 71%, 41%);
+}
+.claim input:hover {
+    background-color: rgb(48, 153, 201);
+}
+
